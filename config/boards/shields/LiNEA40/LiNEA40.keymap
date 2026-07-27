@@ -114,13 +114,7 @@
             tap-ms = <20>;
         };
     };
-&mt {
-    tapping-term-ms = <150>;
-};
 
-&lt {
-    tapping-term-ms = <150>;
-};
     keymap {
         compatible = "zmk,keymap";
 
@@ -197,3 +191,11 @@
         };
     };
 };
+&mt {
+    tapping-term-ms = <150>;
+};
+
+&lt {
+    tapping-term-ms = <150>;
+};
+
